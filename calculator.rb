@@ -11,11 +11,14 @@ def second_number(secnum)
   secnum = gets.to_i
 end
 
-sum = #{firstnum} + #{secnum}
+first_number = 1
+second_number = 2
 
-difference = #{firstnum} - #{secnum}
+sum = first_number + second_number
 
-product = #{firstnum} * #{secnum}
+difference = first_number - second_number
 
-quotient = #{firstnum} / #{secnum}
+product = first_number * second_number
+
+quotient = first_number / second_number
 # do int.0 to make it a float?
